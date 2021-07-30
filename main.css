@@ -21,24 +21,25 @@ body {
     font-kerning: normal;
 }
 @media (max-width: 600px) {
-    body {
-        font-size: 0.9em;
-        padding: 1em;
-    }
+body {
+    font-size: 0.9em;
+    padding: 1em;
+    max-width: 90%;
+}
 }
 @media print {
-    body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-    }
-    p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-    }
-    h2, h3, h4 {
-        page-break-after: avoid;
-    }
+body {
+    background-color: transparent;
+    color: black;
+    font-size: 12pt;
+}
+p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+}
+h2, h3, h4 {
+    page-break-after: avoid;
+}
 }
 p {
     margin: 1em 0;
