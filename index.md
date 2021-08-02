@@ -14,7 +14,7 @@ same speed (compared by their step length), so it is a fair comparison.
 
 This is the video with more sites. 
 
-![1000 points, repulsion coeff: 2e-6](./pres_long.mp4)
+![1000 points, repulsion coeff: 6e-6](./pres_long.mp4)
 
 * * *
 
